@@ -1,0 +1,26 @@
+# /etc/conf.d/fantasyd: config file for /etc/init.d/fantasyd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/fantasy/fantasy.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/fantasyd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/fantasyd.pid"
+
+# Where to write fantasyd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/fantasyd"
+
+# User and group to own fantasyd process
+#BITCOIND_USER="fantasy"
+#BITCOIND_GROUP="fantasy"
+
+# Path to fantasyd executable
+#BITCOIND_BIN="/usr/bin/fantasyd"
+
+# Nice value to run fantasyd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

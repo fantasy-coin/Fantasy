@@ -1,0 +1,26 @@
+[Unit]
+Description=Fantasy's distributed currency daemon
+After=network.target
+
+[Service]
+User=fantasy
+Group=fantasy
+
+Type=forking
+PIDFile=/var/lib/fantasyd/fantasyd.pid
+
+ExecStart=/usr/bin/fantasyd -daemon -pid=/var/lib/fantasyd/fantasyd.pid \
+          -conf=/etc/fantasy/fantasy.conf -datadir=/var/lib/fantasyd
+
+ExecStop=-/usr/bin/fantasy-cli -conf=/etc/fantasy/fantasy.conf \
+         -datadir=/var/lib/fantasyd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

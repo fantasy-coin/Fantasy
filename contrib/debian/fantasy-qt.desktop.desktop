@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Fantasy
+Comment=Fantasy P2P Cryptocurrency
+Exec=fantasy-qt %u
+Terminal=false
+Type=Application
+Icon=fantasy128
+MimeType=x-scheme-handler/fantasy;
+Categories=Office;Finance;
+Name[en_US]=fantasy-qt.desktop

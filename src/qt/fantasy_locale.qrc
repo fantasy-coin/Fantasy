@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/fantasy_bg.qm</file>
+        <file alias="ca">locale/fantasy_ca.qm</file>
+        <file alias="cs">locale/fantasy_cs.qm</file>
+        <file alias="da">locale/fantasy_da.qm</file>
+        <file alias="de">locale/fantasy_de.qm</file>
+        <file alias="en">locale/fantasy_en.qm</file>
+        <file alias="en_US">locale/fantasy_en_US.qm</file>
+        <file alias="es">locale/fantasy_es.qm</file>
+        <file alias="fi">locale/fantasy_fi.qm</file>
+        <file alias="fr_FR">locale/fantasy_fr_FR.qm</file>
+        <file alias="it">locale/fantasy_it.qm</file>
+        <file alias="ja">locale/fantasy_ja.qm</file>
+        <file alias="ko_KR">locale/fantasy_ko_KR.qm</file>
+        <file alias="nl">locale/fantasy_nl.qm</file>
+        <file alias="pl">locale/fantasy_pl.qm</file>
+        <file alias="pt">locale/fantasy_pt.qm</file>
+        <file alias="pt_BR">locale/fantasy_pt_BR.qm</file>
+        <file alias="ro_RO">locale/fantasy_ro_RO.qm</file>
+        <file alias="ru">locale/fantasy_ru.qm</file>
+        <file alias="sk">locale/fantasy_sk.qm</file>
+        <file alias="sv">locale/fantasy_sv.qm</file>
+        <file alias="tr">locale/fantasy_tr.qm</file>
+        <file alias="uk">locale/fantasy_uk.qm</file>
+        <file alias="zh_CN">locale/fantasy_zh_CN.qm</file>
+        <file alias="zh_TW">locale/fantasy_zh_TW.qm</file>
+    </qresource>
+</RCC>
